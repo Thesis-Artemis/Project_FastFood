@@ -1,13 +1,12 @@
 package com.example.baitaplon;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
@@ -79,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
             // Signed in successfully, show authenticated UI.
-            startActivity(new Intent(MainActivity.this, ManHinh2Activity.class));
+            startActivity(new Intent(MainActivity.this,SecondActivity2.class));
         } catch (ApiException e) {
             // The ApiException status code indicates the detailed failure reason.
             // Please refer to the GoogleSignInStatusCodes class reference for more information.
