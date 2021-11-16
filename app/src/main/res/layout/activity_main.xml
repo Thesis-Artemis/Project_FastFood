@@ -38,7 +38,7 @@
         android:layout_height="75dp"
         android:layout_marginTop="56dp"
         android:backgroundTint="#C78FDB"
-        android:text="Đăng nhập với google"
+        android:text="Đăng nhập với facebook"
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
