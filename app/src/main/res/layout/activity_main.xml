@@ -18,33 +18,33 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/loginimg" />
 
-    <Button
-        android:id="@+id/btnLoginWGG"
-        android:layout_width="308dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="56dp"
-        android:backgroundTint="#C78FDB"
-        android:text="Đăng nhập với google"
-        android:textAlignment="center"
-        android:textSize="20sp"
+
+    <com.google.android.gms.common.SignInButton
+
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="424dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TVLogin" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/btnLoginWGG2"
         android:layout_width="308dp"
         android:layout_height="75dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginBottom="96dp"
         android:backgroundTint="#C78FDB"
-        android:text="Đăng nhập với google"
+        android:text="Đăng nhập với facebook"
         android:textAlignment="center"
         android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnLoginWGG" />
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/TVLogin"
